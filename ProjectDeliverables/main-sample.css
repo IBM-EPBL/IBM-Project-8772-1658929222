@@ -1,0 +1,62 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.box{
+    background: linear-gradient(0deg, rgba(76, 76, 168, 0.863), rgba(0, 0,12, 0.3)),url('https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 100%; 
+    height: 1000px;
+    background-position: 0%;
+    background-size: cover;
+    background-clip: initial;
+    background-color: black;
+    position: absolute;
+}
+.section1{
+    background: url('https://www.axisbank.com/images/default-source/revamp_new/about-us/banner_aboutus.jpg?sfvrsn=6a528c55_2');
+    height: 300px;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.heading{
+    margin-top: 100px;
+}
+p{
+    color: white;
+}
+.text{
+    color: white;
+    margin-top: 200px;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nuosu SIL', serif;
+}
+.desc{
+    font-size: larger;
+}
+
+.Fields{
+    margin-top: 300px;
+    background: linear-gradient(0deg, rgba(0, 0, 12, 0.863), rgba(0, 0,12, 0.3)),black;
+    height: 500px;
+}
+.Fields h1{
+    color: beige;
+    text-align: center;
+    padding: 30px;
+}
